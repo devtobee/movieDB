@@ -1,5 +1,12 @@
+import Form from './Form'
+import Movies from './Movies'
 function App() {
-  return <div className='App'>dtgf</div>
+  return (
+    <main>
+      <Form />
+      <Movies />
+    </main>
+  )
 }
 
 export default App
